@@ -11,9 +11,6 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
 ## my_code_view
 
 A widget with side-by-side **Multi** source code view.

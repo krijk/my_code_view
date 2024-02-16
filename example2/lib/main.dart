@@ -29,10 +29,10 @@ class MyApp extends StatelessWidget {
             'assets/code/native/NativeAdFactoryExample.java',
           ],
 
-          // ブラウザ上に表示する場合
+          // In case to show on a web browser
           // codeLinkPrefix: 'https://raw.githubusercontent.com/flutter/flutter/master/examples/hello_world',
 
-          // 以下のコードを表示する場合
+          // In case to show text code contents
           // codeContent: 'code content',
 
           // iconBackgroundColor: Colors.white,
