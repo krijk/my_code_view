@@ -20,6 +20,8 @@ A widget with side-by-side **Multi** source code view.
 Inspired by [widget_with_codeview](https://pub.dev/packages/widget_with_codeview)
 and [flutter-catalog](https://github.com/X-Wei/flutter_catalog/) open-source app.
 
+![overview](https://github.com/krijk/my_code_view/assets/73879645/348ec395-bee0-4cfc-a16c-7d4bb9077056)
+
 ## Getting started
 
 TODO: List prerequisites and provide or point to information on how to
