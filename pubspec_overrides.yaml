@@ -1,0 +1,5 @@
+#
+dependency_overrides:
+  # float_column: ^2.1.1 does not work on flutter 3.19.0
+  float_column: ^2.1.5
+
