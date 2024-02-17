@@ -1,7 +1,7 @@
 name: my_code_view
 description: "A widget with side-by-side multi source code view."
-version: 0.0.1
-homepage:
+version: 0.0.2+1
+homepage: "https://github.com/krijk/my_code_view"
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
