@@ -1,6 +1,6 @@
 name: my_code_view
 description: "A widget with side-by-side multi source code view."
-version: 0.0.2+1
+version: 0.0.3+1
 homepage: "https://github.com/krijk/my_code_view"
 
 environment:
