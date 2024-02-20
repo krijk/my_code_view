@@ -14,6 +14,9 @@ enum _Tab2 {
   four,
   five,
   six,
+  seven,
+  eight,
+  nine,
   ;
 
   TabInfo get info => TabInfo(name, iconData);
@@ -21,17 +24,23 @@ enum _Tab2 {
   IconData get iconData {
     switch (this) {
       case one:
-        return Icons.looks_one_rounded;
+        return Icons.filter_1;  // looks_one_rounded;
       case two:
-        return Icons.looks_two_rounded;
+        return Icons.filter_2;
       case three:
-        return Icons.looks_3_rounded;
+        return Icons.filter_3;
       case four:
-        return Icons.looks_4_rounded;
+        return Icons.filter_4;
       case five:
-        return Icons.looks_5_rounded;
+        return Icons.filter_5;
       case six:
-        return Icons.looks_6_rounded;
+        return Icons.filter_6;
+      case seven:
+        return Icons.filter_7;
+      case eight:
+        return Icons.filter_8;
+      case nine:
+        return Icons.filter_9;
     }
   }
 
@@ -83,7 +92,7 @@ class WidgetWithCodeView2 extends StatefulWidget {
   final TextStyle? tabTextStyle;
 
   const WidgetWithCodeView2({
-    Key? key,
+    super.key,
     required this.fileList,
     this.codeContent,
     this.child,
@@ -104,8 +113,7 @@ class WidgetWithCodeView2 extends StatefulWidget {
     this.closeManually = true,
     this.tabIconColor,
     this.tabTextStyle,
-  })  : assert(fileList.length > 0),
-        super(key: key);
+  })  : assert(fileList.length > 0);
 
   @override
   WidgetWithCodeView2State createState() => WidgetWithCodeView2State();

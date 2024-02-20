@@ -27,6 +27,12 @@ class MyApp extends StatelessWidget {
             'lib/main.dart',
             'assets/code/native/my_native_ad02.xml',
             'assets/code/native/NativeAdFactoryExample.java',
+            'assets/code/native/NativeAdFactoryExample.java',
+            'assets/code/source05.dart',
+            'assets/code/source06.dart',
+            'assets/code/source07.dart',
+            'assets/code/source08.dart',
+            'assets/code/source09.dart',
           ],
 
           // In case to show on a web browser
