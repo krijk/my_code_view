@@ -1,6 +1,6 @@
 name: my_code_view
 description: "A widget with side-by-side multi source code view."
-version: 0.0.3+1
+version: 0.0.4+1
 homepage: "https://github.com/krijk/my_code_view"
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
   flutter_speed_dial: ^7.0.0
   google_fonts: ^6.1.0
   selectable: ^0.3.0
-  share_plus: ^7.2.2
+  share_plus: ^8.0.2
   string_scanner: ^1.2.0
   url_launcher: ^6.1.7
 
